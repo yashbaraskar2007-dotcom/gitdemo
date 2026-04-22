@@ -9,7 +9,7 @@ ls
 it will list the files in the current directory,
  you can use it to check if the files you want to add are present.
 
-ls       
+ls  -a    
 this will show all hidden files 
 to track the changes in our directory git has it's own file named 
 .git 
@@ -104,6 +104,20 @@ git push origin main
 1) it is used to push the changes from local repository to remote repository, 
    it will update the remote repository with the changes that have been committed 
    in the local repository. 
+
+
+   origin is the default name for the remote repository and main is the branch name,
+   you can also specify other branch names if you are working on a different branch.
+
+   now 
+   cd ..
+   this is used to move up one directory level, it will take you to the parent 
+   directory of the current directory.  
+   or simply you will get out of that foldr 
+
+   mkdir gitdemo2
+    this is used to create a new directory named gitdemo2, it will create a new folder 
+    in the current directory with the name gitdemo2. 
 
 
 
