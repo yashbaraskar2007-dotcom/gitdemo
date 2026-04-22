@@ -96,7 +96,14 @@ Changes not staged for commit:
  now just commiting does not update the remote repository, we need to push the changes
   to the remote repository using git push command.
  git push origin main
- 
+
+
+
+ .................................push and pull............................................
+git push origin main
+1) it is used to push the changes from local repository to remote repository, 
+   it will update the remote repository with the changes that have been committed 
+   in the local repository. 
 
 
 
