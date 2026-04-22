@@ -86,6 +86,19 @@ Changes not staged for commit:
         modified:   info.cpp
 
 
+ after commit 
+        PS C:\Users\yashb\Downloads\gitdemo\gitdemo> git commit -m " i am doing good till now"
+[main a3eb264]  i am doing good till now
+ 3 files changed, 98 insertions(+), 1 deletion(-)
+ create mode 100644 index.html
+ create mode 100644 info.cpp
+
+ now just commiting does not update the remote repository, we need to push the changes
+  to the remote repository using git push command.
+ git push origin main
+ 
+
+
 
 
 
